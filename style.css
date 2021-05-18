@@ -14,3 +14,47 @@
     padding: 12px;
     font-size: 16px;
 }
+.card-Section{
+    padding: 0px 90px;
+    font-weight: bold;
+    /* text-align: left; */
+    height: 50vh;
+    background-color: rgb(241, 236, 236);
+}
+.text{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.card{
+    margin-top: 35px;
+}
+.card img{
+    height: 180px;
+}
+.card-title{
+    font-weight: bold;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    margin-top: 5px;
+}
+.card-Sections{
+    padding: 10px 90px;
+}
+.btn-outline-dark{
+    padding: 15px;
+    font-size: 1.1rem;
+    width: 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 680px;
+}
+.fotoor{
+    display: flex;
+    padding: 0px 70px;
+
+}
