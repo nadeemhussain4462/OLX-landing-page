@@ -1,91 +1,26 @@
-.header{
-    display: flex;
-    justify-content: space-around;
-}
-.header a{
-    padding: 0px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold ;
-    font-size: 22px;
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.header input{
-    padding: 12px;
-    font-size: 16px;
+header h1 {
+  font-size: 24px;
+  margin: 0;
 }
-.card-Section{
-    padding: 0px 90px;
-    font-weight: bold;
-    /* text-align: left; */
-    height: 50vh;
-    background-color: rgb(241, 236, 236);
-}
-.home{
-    background-image: url(https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg);
-    /* background-size: 2400px 250px; */
-    background-repeat: no-repeat;
-    background-position: 50%;
-    width: auto;
-    height: 300px;
-}
-.text{
-    margin-top: 20px;
-    font-size: 1.4rem;
-    font-weight: 500;
-}
-.card{
-    margin-top: 35px;
-}
-.card img{
-    height: 180px;
-}
-.card-title{
-    font-weight: bold;
-}
-.card-text{
-    font-weight: bold;
-}
-.btn-primary{
-    margin-top: 5px;
-}
-.card-Sections{
-    padding: 10px 90px;
-}
-.btn-outline-dark{
-    padding: 15px;
-    font-size: 1.1rem;
-    width: 110px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 680px;
-}
-.fotoor{
-    display: flex;
-    padding: 0px 70px;
-    justify-content: center;
-    text-align: center;
-}
-.olx{
-    font-weight: bold;
-    font-size: 2rem;
-}
-.txt{
-    font-size: 1.1rem;
-    font-weight: 600;
 
+header nav a {
+  text-decoration: none;
+  font-weight: bold;
 }
-.logo{
-    display: flex;
-    width: auto;
-    height: 70px;
-    justify-content: center;
-    
+
+.hero img {
+  max-width: 100%;
+  height: auto;
 }
-.text-gray-600{
-    font-size: small;
-}
-.text-sm{
-    
+
+.card img {
+  object-fit: cover;
+  height: 200px;
 }
