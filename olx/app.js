@@ -1,7 +1,18 @@
+// Open the Sign-Up page as a pop-up
+document.querySelector(".signUp-btn").addEventListener("click", () => {
+    window.open(
+      "signup.html", // Path to your sign-up page
+      "SignUp",
+      "width=500,height=500,top=200,left=450"
+    );
+  });
+  
+
+
 // Dummy data for items
 const itemsData = {
     "mobile-phones": [
-        { name: "iPhone 14", price: "$1200", time: "1 day ago", image: "https://via.placeholder.com/300x200?text=iPhone+14" },
+        { name: "iPhone 14", price: "$1200", time: "1 day ago", image: "https://via.placeholder.com/300x200?text=iPhone+14"},
         { name: "Samsung Galaxy S22", price: "$1000", time: "3 hours ago", image: "https://via.placeholder.com/300x200?text=Galaxy+S22" },
         { name: "OnePlus 11", price: "$800", time: "2 days ago", image: "https://via.placeholder.com/300x200?text=OnePlus+11" },
         { name: "Google Pixel 7", price: "$900", time: "5 hours ago", image: "https://via.placeholder.com/300x200?text=Pixel+7" }
@@ -45,6 +56,7 @@ const itemsData = {
     
 };
 
+
 // Function to display items
 function displayItems(category) {
     const cardContainer = document.getElementById("item-cards");
@@ -80,3 +92,52 @@ document.getElementById("category-list").addEventListener("click", (event) => {
         displayItems(category);
     }
 });
+
+
+
+
+
+
+
+
+
+
+
+// // Redirect to a mock Sign-Up page and set dummy credentials in local storage
+// document.querySelector(".signUp-btn").addEventListener("click", () => {
+//     // Simulate Sign-Up process
+//     localStorage.setItem("email", "hoteleyenadeem@gmail.com");
+//     localStorage.setItem("password", "Nadeem4462");
+//     // alert("Dummy credentials saved. Redirecting to Sign-Up page...");
+//     // Redirect to a simulated Sign-Up page (you can replace the URL)
+//     window.location.href = "signup.html";
+//   });
+  
+  // Handle Login functionality
+  document.querySelector(".login-btn").addEventListener("click", () => {
+    // Prompt user for email and password
+    let email = prompt("Enter your email:");
+    let password = prompt("Enter your password:");
+  
+    // Retrieve dummy credentials from local storage
+    let storedEmail = localStorage.getItem("email");
+    let storedPassword = localStorage.getItem("password");
+  
+    // Validate credentials
+    if (email === storedEmail && password === storedPassword) {
+      // If credentials match, show success pop-up
+      Swal.fire({
+        icon: "success",
+        title: "Login Successful",
+        text: "Welcome to OLX Clone!",
+      });
+    } else {
+      // If credentials do not match, show error pop-up
+      Swal.fire({
+        icon: "error",
+        title: "Login Failed",
+        text: "Invalid email or password. Please try again.",
+      });
+    }
+  });
+  
