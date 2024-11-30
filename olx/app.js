@@ -12,7 +12,7 @@ document.querySelector(".signUp-btn").addEventListener("click", () => {
 // Dummy data for items
 const itemsData = {
     "mobile-phones": [
-        { name: "iPhone 14", price: "$1200", time: "1 day ago", image: "https://via.placeholder.com/300x200?text=iPhone+14"},
+        { name: "iPhone 14", price: "$1200", time: "1 day ago", image: "image/bike1.jfif"},
         { name: "Samsung Galaxy S22", price: "$1000", time: "3 hours ago", image: "https://via.placeholder.com/300x200?text=Galaxy+S22" },
         { name: "OnePlus 11", price: "$800", time: "2 days ago", image: "https://via.placeholder.com/300x200?text=OnePlus+11" },
         { name: "Google Pixel 7", price: "$900", time: "5 hours ago", image: "https://via.placeholder.com/300x200?text=Pixel+7" }
@@ -24,10 +24,10 @@ const itemsData = {
         { name: "Kia Sportage", price: "$25000", time: "3 hours ago", image: "https://via.placeholder.com/300x200?text=Kia+Sportage" }
     ],
     motorcycles: [
-        { name: "Yamaha R1", price: "$12000", time: "1 hour ago", image: "https://via.placeholder.com/300x200?text=Yamaha+R1" },
-        { name: "Honda CG125", price: "$800", time: "2 days ago", image: "https://via.placeholder.com/300x200?text=Honda+CG125" },
-        { name: "Yamaha R1", price: "$12000", time: "1 hour ago", image: "https://via.placeholder.com/300x200?text=Yamaha+R1" },
-        { name: "Honda CG125", price: "$800", time: "2 days ago", image: "https://via.placeholder.com/300x200?text=Honda+CG125" }
+        { name: "Yamaha R1", price: "$12000", time: "1 hour ago", image: "image/bike1.jfif" },
+        { name: "Honda CG125", price: "$800", time: "2 days ago", image: "image/bike2.jfif" },
+        { name: "Yamaha R1", price: "$12000", time: "1 hour ago", image: "image/bike3.jfif" },
+        { name: "Honda CG125", price: "$800", time: "2 days ago", image: "image/bike4.jfif" }
     ],
     houses: [
         { name: "3 Bed Apartment", price: "$120,000", time: "5 hours ago", image: "https://via.placeholder.com/300x200?text=3+Bed+Apartment" },
